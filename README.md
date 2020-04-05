@@ -22,16 +22,18 @@ RobGUI.ipynb Run through the cells and the last cell is the the Chatbot interfac
 D. The data and evaluation files
 The data files all in the 'cknn' folder with our tested 15 condtions and 6 questions for each of them. The glo_cknn is the global cknn repository linked all the triples together in one CKNN graph. The testing results are in a form that you can find in another file called evaluation form.docx
 
+E. PredictionRanking file shows the example of the prediction algorithm based on the probability of Discrete Uniform Distribution (DUD) 
+
 E. Core requirements for running the code:
-NLTK API
-LXML API
-URILIB API
-REQUESTS API
-SPACY API
-WIKI API
-RDFLIB API
-PANDAS API
-OS API
-Tkiner API
-SPOTLIGHT API
+1. NLTK API
+2. LXML API
+3. URILIB API
+4. REQUESTS API
+5. SPACY API
+6. WIKI API
+7. RDFLIB API
+8. PANDAS API
+9. OS API
+10. Tkiner API
+11. DBpedia SPOTLIGHT API
 JSON API

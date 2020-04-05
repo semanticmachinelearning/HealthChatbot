@@ -22,7 +22,7 @@ RobGUI.ipynb Run through the cells and the last cell is the the Chatbot interfac
 D. The data and evaluation files
 The data files all in the 'cknn' folder with our tested 15 condtions and 6 questions for each of them. The glo_cknn is the global cknn repository linked all the triples together in one CKNN graph. The testing results are in a form that you can find in another file called evaluation form.docx
 
-E. PredictionRanking file shows the example of the prediction algorithm based on the probability of Discrete Uniform Distribution (DUD) 
+E. PredictionRanking.ipynb file shows the example of the prediction algorithm based on the probability of Discrete Uniform Distribution (DUD) 
 
 E. Core requirements for running the code:
 1. NLTK API

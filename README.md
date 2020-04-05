@@ -1,7 +1,7 @@
 # HealthChatbot
 A Chatbot that can answer questions to health condition questions
 
-Health Chatbot project is a research project to learning health condtion information from internet such as UK NHS and Wiki pages and transform it as chatbot knowledge. More advance, the chatbot will remember the knowledge through a causality knowledge graph neural network (CKNN). The CKNN then can reasoning the knowledge to answer questions and do predictions based on observation input. 
+Health Chatbot project is a research project to learning health condtion information from internet such as UK NHS and Wiki pages and transform it as chatbot knowledge. More advance, the chatbot will remember the knowledge through a causality knowledge graph neural network (CKNN). The CKNN then can reasoning the knowledge with basic probability computation on the CNKK to answer questions and do predictions based on observation input. 
 The couple important files:
 
 A. HealthChatbotv33.py is the python class 

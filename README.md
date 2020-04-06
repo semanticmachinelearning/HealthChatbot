@@ -36,4 +36,4 @@ E. Core requirements for running the code:
 9. OS API
 10. Tkiner API
 11. DBpedia SPOTLIGHT API
-JSON API
+12. JSON API

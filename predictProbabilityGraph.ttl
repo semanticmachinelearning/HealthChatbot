@@ -1,0 +1,115 @@
+@prefix ns1: <http://healthchatbot.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/allergy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Itch> ;
+    ns1:overallRankingScore "0.4" ;
+    ns1:probablity "symptom-Itch:1.0",
+        "unwellPart-Blood:1.0" .
+
+<http://dbpedia.org/page/asthma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.1" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5" .
+
+<http://dbpedia.org/page/breast-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Experiment> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.3" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5",
+        "unwellPart-Experiment:1.0" .
+
+<http://dbpedia.org/page/chickenpox> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Clothing>,
+        <http://dbpedia.org/page/Experiment> ;
+    ns1:causesDisease <http://dbpedia.org/page/Appetite>,
+        <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Blister>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Itch> ;
+    ns1:overallRankingScore "0.8999999999999998" ;
+    ns1:probablity "linkTo-Appetite:0.3333333333333333",
+        "linkTo-Schizophrenia:0.5",
+        "symptom-Blister:0.5",
+        "symptom-Fever:1.0",
+        "symptom-Itch:0.3333333333333333",
+        "unwellPart-Blood:0.3333333333333333",
+        "unwellPart-Clothing:0.5",
+        "unwellPart-Experiment:1.0" .
+
+<http://dbpedia.org/page/flu> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <http://dbpedia.org/page/Appetite> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Fever> ;
+    ns1:overallRankingScore "0.4" ;
+    ns1:probablity "linkTo-Appetite:1.0",
+        "symptom-Fever:1.0" .
+
+<http://dbpedia.org/page/gallstone> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Fever> ;
+    ns1:overallRankingScore "0.2" ;
+    ns1:probablity "symptom-Fever:1.0" .
+
+<http://dbpedia.org/page/glaucoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.1" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5" .
+
+<http://dbpedia.org/page/heart-attack> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.3" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5",
+        "unwellPart-Blood:1.0" .
+
+<http://dbpedia.org/page/lung-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.1" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5" .
+
+<http://dbpedia.org/page/pneumonia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <http://dbpedia.org/page/Appetite>,
+        <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Fever> ;
+    ns1:overallRankingScore "0.4666666666666667" ;
+    ns1:probablity "linkTo-Appetite:1.0",
+        "linkTo-Schizophrenia:0.3333333333333333",
+        "symptom-Fever:1.0" .
+
+<http://dbpedia.org/page/stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.3" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5",
+        "unwellPart-Blood:1.0" .
+
+<http://dbpedia.org/page/urinary-incontinence> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <http://dbpedia.org/page/Schizophrenia> ;
+    ns1:overallRankingScore "0.1" ;
+    ns1:probablity "linkTo-Schizophrenia:0.5" .
+
+<http://dbpedia.org/page/urinary-tract-infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Fever> ;
+    ns1:overallRankingScore "0.2" ;
+    ns1:probablity "symptom-Fever:1.0" .
+
+<http://dbpedia.org/page/Blister> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Clothing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Experiment> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Appetite> a <http://dbpedia.org/ontology/Disease> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> .
+
